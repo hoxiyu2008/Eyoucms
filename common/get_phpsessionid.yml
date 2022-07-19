@@ -1,0 +1,30 @@
+- "title": "输入错误的密码"
+  "data": { "user_name": admin, "password": "1234567" }
+  "url": "http://192.168.21.101/login.php?m=admin&c=Admin&a=login&_ajax=1&lang=cn&t=0.5730679063828206"
+  "method": "post"
+
+- "title": "输入错误的用户名，错误的密码"
+  "data": { "user_name": admin1, "password": "1234567" }
+  "url": "http://192.168.21.101/login.php?m=admin&c=Admin&a=login&_ajax=1&lang=cn&t=0.5730679063828206"
+  "method": "post"
+
+- "title": "输入空用户名"
+  "data": { "user_name": , "password": "1234567" }
+  "url": "http://192.168.21.101/login.php?m=admin&c=Admin&a=login&_ajax=1&lang=cn&t=0.5730679063828206"
+  "method": "post"
+
+- "title": "输入空密码"
+  "data": { "user_name": admin, "password": "" }
+  "url": "http://192.168.21.101/login.php?m=admin&c=Admin&a=login&_ajax=1&lang=cn&t=0.5730679063828206"
+  "method": "post"
+
+- "title": "输入空用户名，空密码"
+  "data": { "user_name": "", "password": "" }
+  "url": "http://192.168.21.101/login.php?m=admin&c=Admin&a=login&_ajax=1&lang=cn&t=0.5730679063828206"
+  "method": "post"
+
+- "title": "输入正确的用户名，密码"
+  "data": { "user_name": admin, "password": "123456" }
+  "url": "http://192.168.21.101/login.php?m=admin&c=Admin&a=login&_ajax=1&lang=cn&t=0.5730679063828206"
+  "method": "post"
+

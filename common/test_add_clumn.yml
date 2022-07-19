@@ -1,0 +1,57 @@
+- "title": $csv{testcase_name}
+  "data": {"typename": $csv{clumn_username},
+          "dirname": "",
+          "current_channel": "1",
+          "parent_id": "",
+          "diy_dirpath": "",
+          "dirpath": "",
+          "is_hidden": "0",
+          "is_part": "0",
+          "typelink": "",
+          "englist_name": "",
+          "litpic_local": "",
+          "litpic_remote": "",
+          "templist": "lists_article.htm",
+          "tempview": "view_article.htm",
+          "rulelist": "{栏目目录}/list_{tid}_{page}.html",
+          "ruleview": "{栏目目录}/{aid}.html",
+          "seo_title": "",
+          "seo_keywords": "",
+          "seo_description": "",
+          "grade": "0"}
+  "url": $csv{url}
+  "headers": {
+              "Accept":"application/json, text/javascript, */*; q=0.01",
+              "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8"
+             }
+
+
+
+#- "title": "栏目类型名称为空"
+#  "data": {"typename": "",
+#          "dirname": "",
+#          "current_channel": "1",
+#          "parent_id": "",
+#          "diy_dirpath": "",
+#          "dirpath": "",
+#          "is_hidden": "0",
+#          "is_part": "0",
+#          "typelink": "",
+#          "englist_name": "",
+#          "litpic_local": "",
+#          "litpic_remote": "",
+#          "templist": "lists_article.htm",
+#          "tempview": "view_article.htm",
+#          "rulelist": "{栏目目录}/list_{tid}_{page}.html",
+#          "ruleview": "{栏目目录}/{aid}.html",
+#          "seo_title": "",
+#          "seo_keywords": "",
+#          "seo_description": "",
+#          "grade": "0"}
+#  "url": "http://192.168.21.101/login.php?m=admin&c=Arctype&a=add&lang=cn"
+#  "headers": {
+#          "Accept": "application/json, text/javascript, */*; q=0.01",
+#          "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8"
+#  }
+#  "method": "post"
+
